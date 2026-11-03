@@ -858,6 +858,7 @@ a {
     .tech-card {
         width: 145px;
         padding: 12px;
+
     }
 
     .tech-heading {
@@ -2495,4 +2496,18 @@ button:disabled {
   opacity: 0;
   animation: aboutTextEnter 1s ease forwards;
   animation-delay: 0.4s;
+}
+
+/* Keep arrow symbols looking consistent across devices */
+.primary-button span,
+.secondary-button span,
+.nav-button span,
+.about-primary-button span,
+.about-secondary-button span,
+.project-view,
+.contact-submit span,
+.contact-socials a,
+.footer-column a {
+    font-family: Arial, sans-serif;
+    font-variant-emoji: text;
 }
